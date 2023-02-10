@@ -59,7 +59,7 @@ setor financeiro
 
 
 
-!["Diagrama modelo conceitual"](./diagrama.pngj)
+!["Diagrama modelo conceitual"](./diagrama.png)
 
 ### Modelo Lógico
 
