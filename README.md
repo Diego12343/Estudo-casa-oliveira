@@ -113,7 +113,7 @@ Vamos criar a tabela de produtos. Esta tabela possui os seguintes campos:
 Para o campo descricao, usaremos o tipo de dado Text. Com este tipo podemos inserir
 até 64mil caracteres. Como neste campo pode haver a possibilidade de uma descrição 
 longa do produto, se faz necessário um tamnho maior.
-```
+
 ```
 Para o campo fornecedor iremos usar o tipo de dado VARCHAR. Este tipo de dados nos permite
 inserir textos, mas com um limite que pode ser pre definido pelo usuário ou podemos utilizar 
@@ -136,6 +136,7 @@ Para os campos nome, marca e categoria será definido o tipo de dado VARCHAR, po
 é capaz de receber caracteres de texto. Presisaremos, apenas definir, o tamanho de cada campo.
 EX.: nome pode ficar com o tamanho 50, marca ficar com 30 e categoria 20
 ```
+```
 */
 CREATE TABLE produto(
 idproduto int auto_increment primary key,
@@ -156,5 +157,7 @@ quantidade_minima int,
 quantidade_atual int,
 ultima_movimentacao date,
 quantidade_LOTE int);
-
+```
+### Modelo físico -MER(Modelo de Entidade Relacional)
+![Diagrama do Modelo de Entidade Relacional](./modelo_fisico.png)
 
