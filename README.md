@@ -108,16 +108,16 @@ Vamos criar a tabela de produtos. Esta tabela possui os seguintes campos:
          de valores;
          -Vamos definir o campo o tipo de dado numérico int(inteiro)
          ```
-
-         ```
+```
 Para o campo descricao, usaremos o tipo de dado Text. Com este tipo podemos inserir
 até 64mil caracteres. Como neste campo pode haver a possibilidade de uma descrição 
 longa do produto, se faz necessário um tamnho maior.
-
+```
 ```
 Para o campo fornecedor iremos usar o tipo de dado VARCHAR. Este tipo de dados nos permite
 inserir textos, mas com um limite que pode ser pre definido pelo usuário ou podemos utilizar 
 o limite total de 255 caracteres. Para o fornecedor, usaremos 50 caracteres.
+```
 ```
 Para o campo validade iremos usar o tipo de dado DATE.
 ```
@@ -159,5 +159,5 @@ ultima_movimentacao date,
 quantidade_LOTE int);
 ```
 ### Modelo físico -MER(Modelo de Entidade Relacional)
-![Diagrama do Modelo de Entidade Relacional](./modelo_fisico.png)
+!['Diagrama do Modelo de Entidade Relacional'](./modelo_fisico.png)
 
