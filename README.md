@@ -119,7 +119,6 @@ Para o campo fornecedor iremos usar o tipo de dado VARCHAR. Este tipo de dados n
 inserir textos, mas com um limite que pode ser pre definido pelo usuário ou podemos utilizar 
 o limite total de 255 caracteres. Para o fornecedor, usaremos 50 caracteres.
 ```
-```
 Para o campo validade iremos usar o tipo de dado DATE.
 ```
 ```
